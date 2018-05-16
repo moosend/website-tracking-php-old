@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-    <a href="https://travis-ci.org/moosend/website-tracking-php"><img src="https://travis-ci.org/moosend/website-tracking-php.svg" alt="Build Status"></a>
-    <a href="https://packagist.org/packages/moosend/website-tracking"><img src="https://poser.pugx.org/moosend/tracker/v/stable.svg" alt="Latest Stable Version"></a>
-    <a href="https://packagist.org/packages/moosend/website-tracking"><img src="https://poser.pugx.org/moosend/tracker/license.svg" alt="License"></a>
+    <a href="https://travis-ci.org/moosend/website-tracking-php-old"><img src="https://travis-ci.org/moosend/website-tracking-php-old.svg" alt="Build Status"></a>
+    <a href="https://packagist.org/packages/moosend/website-tracking-old"><img src="https://poser.pugx.org/moosend/tracker/v/stable.svg" alt="Latest Stable Version"></a>
+    <a href="https://packagist.org/packages/moosend/website-tracking-old"><img src="https://poser.pugx.org/moosend/tracker/license.svg" alt="License"></a>
 </p>
 
 ## Moosend tracking library - GuzzleHTTP~5
@@ -17,7 +17,7 @@ To install all dependencies run : `composer install` from your terminal / cmd, i
 
 #### Running tests
 This project relies on [phpspec](http://www.phpspec.net/en/latest/), an unit testing and BDD toolset. To run all tests type this on your terminal / cmd
-	
+
 ~~~~
 composer test
 ~~~~
