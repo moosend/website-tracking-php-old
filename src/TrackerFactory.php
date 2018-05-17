@@ -51,6 +51,7 @@ class TrackerFactory
         $client = new Client([
             'base_url' => API::ENDPOINT,
             'defaults'  =>  [
+                'exceptions' => false,
                 'headers'   =>  $requestHeaders
             ]
         ]);
