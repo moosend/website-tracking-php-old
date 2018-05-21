@@ -52,7 +52,8 @@ class TrackerFactory
             'base_url' => API::ENDPOINT,
             'defaults'  =>  [
                 'exceptions' => false,
-                'headers'   =>  $requestHeaders
+                'headers'   =>  $requestHeaders,
+                'verify' => false
             ]
         ]);
 
